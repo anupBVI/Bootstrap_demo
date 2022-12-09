@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header nav .nav-bar{
+  position: fixed;
+  top:0px;
+  z-index: 100;
+  background: #000;
+} 
+nav a{
+  /* color:red; */
+  /* background: red; */
+  margin: 0 5px;
+}
+nav a.active{
+  border-bottom: 1px solid rgb(62, 167, 188);
+}
+
+/* :::::::::::::::: SERVICES  */
+.card-container .card-body .card-logo .image {
+  border: 1px solid green;
+  border-radius: 50%;
+  background: rgb(229, 26, 110);
+  padding: 8px;
+}
+/* :::::::::::::::: SERVICES  */
+
+.header {
+}
+
+.Hero img {
+  opacity: 1;
+  height: 400px;
+}
+
+
+
+
+/* PRODUCTS STYLES */
+.product .image{
+  width: 100%;
+  height:200px;
+}
+.product .image img{
+  width: 100%;
+  height:100%;
+  object-fit: contain;
+}
+
+
+.products-container .image-container {
+}
+.products-container .image-container .image {
+  width: 100%;
+  height: 100%;
+}
+.products-container .image-container .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.products-container button {
+}
+/* PRODUCTS STYLES */
+
+/* TESTIMONIALS STYLES */
+
+.Testimonials .image-container .image {
+  background: rgb(19, 129, 172);
+  border-radius: 50%;
+  width: 67px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonials .image-container .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* TESTIMONIALS STYLES */
+
+/* FOOTER STYLES */
+
+.input-container {
+  background: #000;
+  display: flex;
+  margin-top: 1rem;
+}
+.input-container div:first-child {
+  width: 60%;
+}
+.input-container div:last-child {
+  width: 40%;
+}
+
+.input-container input {
+  border: none;
+  width: 100%;
+  padding: 0.4rem 1rem;
+  outline: none;
+}
+.input-container button {
+  border: none;
+  width: 100%;
+  padding: 0.4rem 1rem;
+  background: rgb(235, 209, 15);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: 0.1s ease all;
+}
+.input-container button:hover {
+  transform: scale(0.98);
+}
+/* FOOTER STYLES */
+
+/* Test */
+.test span.mob,
+span.tab,
+span.lap,
+span.pc,
+span.tv {
+  display: none;
+}
+/* Test */
+
+/* CONTACT */
+.contact-container {
+}
+.contact-container .right {
+}
+.contact-container .right .card1 {
+  display: flex;
+  gap: 5px;
+  padding: 12px;
+}
+.contact-container .right .card1 .col1 {
+  display: flex;
+  justify-content: center;
+}
+.contact-container .right .card1 .col1 .img-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border:1px solid rgb(203, 203, 203);
+  border-radius: 50%;padding: 4px;
+  background: rgb(220, 220, 220);
+}
+.contact-container .right .card1 .col2 {
+}
+/* CONTACT */
+
+
+/* ABOUT */
+.about{
+
+}
+.about .left span{
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
+}
+
+.about .right span{
+  margin-bottom: 1rem;
+  letter-spacing: .06rem;
+  font-size: 1.1rem;
+}
+/* ABOUT */
+
+
+/* THANK YOU */
+.thank-content{
+  /* margin: 1rem; */
+
+}
+.thank-content .image{
+  height:200px;
+  width: 50vw;
+}
+.thank-content .image img{
+  height:100%;
+  width: 100%;
+  object-fit: contain;
+}
+/* THANK YOU */
+
+
+/* FOOTER */
+.footer .footer-links .links span{
+  color:rgb(191, 191, 191);
+  width: 35%;
+  margin:12px 2px;
+  transition: .2s ease-in-out;
+}
+.footer .footer-links .links span:hover{
+  color:rgb(255, 255, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* FOOTER */
+
+
+/*************************** MEDIA QUERIES ************************************/
+
+/*:::::::::::::::::::::::::::: SMALL MOBILE DEVICES ::::::::::::::::::::::::::*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  form span.gender {
+    display: block !important;
+  }
+  .test span.mob {
+    display: block;
+  }
+  .Hero img {
+    opacity: 0.8;
+    height: 200px;
+  }
+  .about .left span{
+    letter-spacing: .07rem;
+    font-size: 1rem;
+  }
+  .about .right span{
+    margin-bottom: 1rem;
+    letter-spacing: .06rem;
+    font-size: 1rem;
+  }
+}
+/* :::::::::::::::::::::::::::::S M A L L - M O B I L E - D E V I C E S::::::::::::::::::::::::::::: */
+
+/* :::::::::::::::::::::::::::::FOR IPADS AND TABLETS::::::::::::::::::::::::::::: */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .test span.tab {
+    display: block;
+  }
+  .Hero img {
+    opacity: 0.8;
+    height: 300px;
+  }
+ 
+}
+/* :::::::::::::::::::::::::::::FOR IPADS AND TABLETS::::::::::::::::::::::::::::: */
+
+/* :::::::::::::::::::::::::::FOR SMALL SCREEN LAPTOPS::::::::::::::::::::::::::: */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .test span.lap {
+    display: block;
+  }
+ 
+}
+/* :::::::::::::::::::::::::::FOR SMALL SCREEN LAPTOPS::::::::::::::::::::::::::: */
+
+/* ::::::::::::::::::::::FOR DESKTOPS AND LARGER SCREEN LAPTOPS:::::::::::::::::::::: */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .test span.pc {
+    display: block;
+  }
+}
+/* ::::::::::::::::::::::FOR DESKTOPS AND LARGER SCREEN LAPTOPS:::::::::::::::::::::: */
+
+/* :::::::::::::::::::FOR EXTRA LARGE SCREENS AND TV'S::::::::::::::::::: */
+@media only screen and (min-width: 1201px) {
+  .test span.tv {
+    display: block;
+  }
+}
+/* :::::::::::::::::::FOR EXTRA LARGE SCREENS AND TV'S::::::::::::::::::: */

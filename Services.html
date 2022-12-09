@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bootstrap practice</title>
+  </head>
+  <body>
+    <div class="main-container d-flex flex-column gap-lg-2 gap-md-2 gap-sm-2 gap-2">
+      <div class="header">
+        <!--::::::::::::::::::::::::::::::::::::::::::::::: NAVBAR :::::::::::::::::::::::::::::::::::::::::::::::-->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid nav-bar">
+              <a class="navbar-brand" href="./index.html">Brand</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link "
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./Services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./About.html">About </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html">Contact</a>
+                  </li>
+                  <div class=" d-flex gap-2 p-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Register.html">
+                        <button class="btn btn-sm btn-info">Sign Up</button>
+                      </a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Login.html">
+                        <button class="btn btn-sm btn-primary">Login</button>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!--::::::::::::::::::::::::::::::::::::::::::::::: NAVBAR :::::::::::::::::::::::::::::::::::::::::::::::-->
+      </div>
+
+
+      <!--:::::::::::::::::::::::::::::::::::::::: BREADCRUMB ::::::::::::::::::::::::::::::::::::::::-->
+      <div class="container mt-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-decoration-none" href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Services</li>
+              </ol>
+              <hr>
+          </nav>
+      </div>
+      <!--:::::::::::::::::::::::::::::::::::::::: BREADCRUMB ::::::::::::::::::::::::::::::::::::::::-->
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::S E R V I C E S:::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::C A R D S:::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+      <div class="container ">
+        <h1 class="display-6 text-center">Our Services</h1>
+        <div class="row gx-3 gy-4">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card card-container">
+              <div class="card-body">
+                <div class="card-logo d-flex justify-content-center">
+                  <div class="image">
+                    <img src="./images//card-icon-1.png" alt="" />
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Card title</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Some quick example text to
+                  build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::C A R D S:::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::S E R V I C E S:::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+   
+    </div>
+
+    <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::Footer::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+    <div class="footer bg-danger mb-0 container-fluid  footer bg-dark text-light py-3 mt-3">
+      <div class="row gx-2 gy-1">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="px-3 py-1">
+            <p class="h5">Logo</p>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Excepturi asperiores qui quas obcaecati magni sequi. Molestias
+              aspernatur eum impedit nobis quae neque amet?
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
+          <div class="px-3 py-1 links">
+            <p class="h5">Our Services</p>
+            <span class="d-block">service 1</span>
+            <span class="d-block">service 1</span>
+            <span class="d-block">service 1</span>
+            <span class="d-block">service 1</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
+          <div class="px-3 py-1 links">
+            <p class="h5">Important Links</p>
+            <span class="d-block">Link 1</span>
+            <span class="d-block">Link 1</span>
+            <span class="d-block">Link 1</span>
+            <span class="d-block">Link 1</span>
+          </div>
+        </div>
+
+        <div class="newsletter col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="px-3 py-1">
+            <p class="h5">NewsLetter</p>
+            <span
+              >Subscribe our newsletter to get instant announcements and
+              notifications for our new launches and arrivals</span
+            >
+            <div class="input-container">
+              <div>
+                <input type="text " placeholder="Enter your Email" />
+              </div>
+              <div>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::Footer::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
